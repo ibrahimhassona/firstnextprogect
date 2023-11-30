@@ -1,0 +1,28 @@
+.container{
+    margin: 50px auto;
+}
+.imageContainer{
+    position: relative;
+    height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.image{
+    border-radius:var(--b-rad);
+}
+.span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--f-color);
+    padding: 5px 8px;
+    font-size: 14px;
+    color: #111;
+    font-weight: bold;
+}
+.text{
+    font-size: 14px;
+    line-height:1.6;
+    columns: 2;
+    text-align: justify;
+}

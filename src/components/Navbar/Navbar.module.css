@@ -1,0 +1,20 @@
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo span{
+    color: var(--f-color);
+}
+.list{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

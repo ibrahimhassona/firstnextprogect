@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.imageContainer {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.contect {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.contect h3{
+    text-transform: uppercase;
+}
+.button {
+  background-color: var(--f-color);
+  padding: 5px 10px;
+  border-radius: var(--b-rad);
+  width: fit-content;
+  font-weight: bolds;
+}
+.contect p{
+    margin: 10px auto;
+    line-height: 1.5;
+}

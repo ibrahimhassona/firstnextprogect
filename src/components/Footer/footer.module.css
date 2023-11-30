@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    height: 50px;
+}
+.social{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.image{
+    opacity: 0.6;
+    transition: opacity .3s ease-in ;
+}
+.image:hover{
+    opacity: 1;
+}
+.logo{
+    color: var(--f-color);
+}
